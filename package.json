@@ -1,0 +1,45 @@
+{
+  "name": "saisai-home",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "1.5.0",
+    "body-parser": "1.14.1",
+    "bower": "^1.8.0",
+    "compression": "1.6.0",
+    "cookie-parser": "1.4.0",
+    "ejs-locals": "^1.0.2",
+    "express": "4.13.3",
+    "less": "^2.7.1",
+    "moment": "2.10.6",
+    "multer": "1.1.0",
+    "querystring": "^0.2.0",
+    "request": "2.65.0",
+    "underscore": "1.8.3"
+  },
+  "devDependencies": {
+    "bower": "^1.7.9",
+    "browser-sync": "^2.15.0",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-bower": "0.0.13",
+    "gulp-cache": "^0.4.5",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-htmlmin": "^2.0.0",
+    "gulp-imagemin": "^3.0.3",
+    "gulp-less": "^3.1.0",
+    "gulp-nodemon": "^2.1.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^2.0.0",
+    "imagemin-pngquant": "^5.0.0",
+    "moment": "^2.14.1"
+  }
+}
