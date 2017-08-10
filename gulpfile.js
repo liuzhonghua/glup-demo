@@ -61,7 +61,7 @@ gulp.task("html", function() {
 
 gulp.task("serve", ["less", "js-watch", "html"], function() {
     browserSync.init({
-        server : "./src",
+        server : "./dist",
         port: 8081,
     });
     gulp.watch('./src/**/*.+(less||js||html)',['build']).on("change", function() {
